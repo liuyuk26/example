@@ -1,0 +1,70 @@
+.fullYearPicker, .fullYearPicker table {
+    font-size: 12px
+}
+
+.fullYearPicker div.year {
+    text-align: center
+}
+
+.fullYearPicker div.year a {
+    margin-right: 30px
+}
+
+.fullYearPicker div.year a.next {
+    margin-right: 0;
+    margin-left: 30px
+}
+
+.fullYearPicker table {
+    background: #888;
+    margin-top: 5px;
+    float: left;
+    margin-right: 10px
+}
+
+.fullYearPicker table.right {
+    margin-right: 0
+}
+
+.fullYearPicker table th.head {
+    text-align: center;
+    line-height: 13px;
+    cursor: default;
+    background: #fff
+}
+
+.fullYearPicker table td {
+    background: #fff;
+    text-align: center;
+    line-height: 13px;
+    cursor: pointer
+}
+
+.fullYearPicker table th {
+    background: #aaa;
+}
+
+.fullYearPicker table td.weekend, .fullYearPicker table th.weekend {
+    background: #ccc;
+    color: blue;
+}
+
+.fullYearPicker table td.disabled {
+    color: #f00;
+    text-decoration: line-through;
+    cursor: not-allowed
+}
+
+.fullYearPicker table td.selected {
+    background: green;
+    color: #fff
+}
+
+.fullYearPicker table td.empty {
+    text-decoration: none;
+    cursor: default
+}
+
+.fullYearPicker br {
+    clear: both
+}

@@ -1,0 +1,43 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    background-color: black;
+    color: white;
+    height: 7%;
+}
+
+#navLeft {
+    background-color: #eeeeee;
+    text-align: center;
+    float: left;
+}
+
+#footer {
+    background-color: black;
+    color: white;
+    height: 3%;
+}
+
+#nav {
+    height: 90%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 1px solid #E9EAEC;
+    -webkit-flex: 1;
+}
+
+.flex-column {
+    -webkit-flex: 1;
+    flex: 1;
+    display: -webkit-flex;
+    display: flex;
+}
