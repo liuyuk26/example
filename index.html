@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        #header {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+        }
+        #navLeft {
+            line-height: 30px;
+            background-color: #eeeeee;
+            float: left;
+            padding: 5px;
+        }
+        #footer {
+            background-color: black;
+            color: white;
+            clear: both;
+            text-align: center;
+            padding: 5px;
+        }
+        .box {
+            border: 1px solid #E9EAEC;
+            -webkit-flex: 1;
+        }
+        .flex-column {
+            -webkit-flex: 1;
+            flex: 1;
+            display: -webkit-flex;
+            display: flex;
+        }
+    </style>
+</head>
+<body id="body">
+
+<div id="header" class="flex-column">
+    <h1>example</h1>
+</div>
+
+<div id="nav" class="flex-column" >
+    <div  id="navLeft" class="box"  style="flex: 1;">
+        <label onclick="alert('aa')">动态合并表格</label><br>
+        <label onclick="alert('aa')">动态合并表格</label><br>
+        <label onclick="alert('aa')">动态合并表格</label><br>
+        <label onclick="alert('aa')">动态合并表格</label><br>
+        <label onclick="alert('aa')">动态合并表格</label><br>
+        <label onclick="alert('aa')">动态合并表格</label>
+    </div>
+        <iframe class="box"  style="flex: 9;"src="pages/dynamicCellMerge/dynamicCellMerge.html"></iframe>
+</div>
+
+<div id="footer" class="flex-column">
+    Copyright ? W3Schools.com
+</div>
+<script>
+    function centers(){
+        var body = document.getElementById("body");
+        document.getElementById("body").style.marginLeft = (screen.width -body.offsetWidth)/2+"px";
+
+        var nav = document.getElementById("nav");
+        document.getElementById("nav").style.marginLeft = (screen.width -divs.offsetWidth)/2+"px";
+    }
+</script>
+</body>
+</html>
